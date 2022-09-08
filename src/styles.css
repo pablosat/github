@@ -49,4 +49,7 @@ input::placeholder {
     width: 90%;
     padding: 24px 0;
   }
+  input {
+    font-size: 18px;
+  }
 }
