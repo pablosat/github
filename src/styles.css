@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  width: 30%;
+}
+
+.input {
+}
+
+.informationContainer {
+  padding: 40px;
+  border: 1px solid black;
+  width: 40%;
+}
