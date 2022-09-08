@@ -1,2 +1,5 @@
 # github
-Created with CodeSandbox
+Simple github user searcher project.
+
+- Made with React
+- Responsive
