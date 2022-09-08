@@ -6,9 +6,7 @@ export default function App() {
   const [user, setUser] = useState({});
   useEffect(() => {
     const getUserInfo = async () => {
-      const data = await (
-        await fetch("https://api.github.com/users/psat93")
-      ).json();
+      const data = await (await fetch("https://api.github.com/users/psat93")).json();
       console.log(data);
       const {
         followers,
