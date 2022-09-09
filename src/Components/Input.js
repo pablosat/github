@@ -15,8 +15,8 @@ export const Input = ({ onSubmit }) => {
       className="input"
       value={inputValue}
       onChange={(e) => setInputValue(e.target.value.trim())}
-      onKeyDown={({ code }) => {
-        if (code === "Enter" && !!inputValue) {
+      onKeyDown={({ key }) => {
+        if (key === "Enter" && !!inputValue) {
           onSubmit(inputValue);
         }
       }}
